@@ -1,2 +1,2 @@
 # Resume
-This contains the code to build my reusme page.
+This contains the code to build my resume page.

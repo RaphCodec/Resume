@@ -8,3 +8,11 @@ dependencies = [
     "mkdocs>=1.6.1",
     "mkdocs-material>=9.7.0",
 ]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "semver2"
+version_provider = "uv"
+update_changelog_on_bump = true
+major_version_zero = true

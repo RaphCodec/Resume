@@ -2,7 +2,7 @@ site_name: RC Resume
 repo_url: https://github.com/RaphCodec/Resume
 nav:
   - Home: index.md
-  - Experience: Experience.md
+  - Education and Experience: Experience.md
 
 theme:
   icon:
@@ -51,3 +51,8 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - neoteroi.timeline
+
+plugins:
+  - macros:
+      module_name: main
+      on_error_fail: false

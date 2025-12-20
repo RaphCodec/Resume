@@ -1,17 +1,20 @@
-# Welcome to MkDocs
+::timeline::
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+- content: First implementation.
+  icon: ':material-rocket-launch-outline:'
+  sub_title: 2022-Q1
+  title: Launch
+- content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  icon: ':fontawesome-solid-gem:'
+  sub_title: 2022-Q2
+  title: New features
+- content: Lorem ipsum dolor sit amet.
+  icon: ':material-gauge-empty:'
+  sub_title: 2022-Q3
+  title: More features!
+- content: Lorem ipsum dolor sit amet.
+  icon: ':material-bug:'
+  sub_title: 2022-Q4
+  title: Bugs!
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+::/timeline::

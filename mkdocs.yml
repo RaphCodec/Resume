@@ -57,3 +57,10 @@ plugins:
   - macros:
       module_name: main
       on_error_fail: false
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/raphael-clifton/
+    - icon: fontawesome/brands/github
+      link: https://github.com/RaphCodec

@@ -44,14 +44,18 @@ Helped students to develop their mathematical and critical thinking skills.
 ## Education
 
 ### Master's Degree
-- **Master of Science:** MS, Information Systems Concentration: Data Analytics
-- **Institution:** CUNY Baruch College: Zicklin School of Business
-- **Graduation:** June 2023
+CUNY Baruch College: Zicklin School of Business
+
+Master of Science: MS, Information Systems Concentration: Data Analytics
+
+<i>Jan 2022 - Jun 2023</i>
 
 ### Bachelor's Degree
-- **Bachelor of Science in Business Administration:** BBA, Economics
-- **Institution:** CUNY Baruch College: Zicklin School of Business
-- **Graduation:** June 2023
+CUNY Baruch College: Zicklin School of Business
+
+Bachelor of Science in Business Administration: BBA, Economics
+
+<i>Sep 2017 - Jun 2021</i>
 
 <div style="height:4px; background:var(--md-default-fg-color); margin:1.5rem 0;"></div>
 

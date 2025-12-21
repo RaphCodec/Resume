@@ -3,6 +3,7 @@ repo_url: https://github.com/RaphCodec/Resume
 nav:
   - Home: index.md
   - Education and Experience: Experience.md
+  - Skills: Skills.md
 
 theme:
   icon:

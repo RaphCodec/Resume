@@ -16,6 +16,8 @@ Developed an interactive Org Chart application to support workforce visibility a
 
 Contributed to key Power BI dashboards for agency programs/KPIs including 311, Congestion Pricing, Revenue, and Fatalities.
 
+[Skils:](Skills.md) :simple-python: :simple-apacheairflow: :material-microsoft-azure: :simple-snowflake: :simple-fastapi: :simple-github:
+
 ***
 
 <div style="display:flex; justify-content:space-between;">
@@ -26,6 +28,8 @@ Contributed to key Power BI dashboards for agency programs/KPIs including 311, C
 Developed python based data pipelines for the agency's central data unit. Reduced load times for data pipelines by 50-95%
 
 Clean and prep data, improving data quality and accuracy for analytical use
+
+[Skills:](Skills.md) :simple-python: :material-database:
 
 ### CUNY Tutor Corps
 
@@ -38,6 +42,8 @@ Clean and prep data, improving data quality and accuracy for analytical use
 Conducted group and one-on-one tutoring sessions remotely and in-person.
 
 Helped students to develop their mathematical and critical thinking skills.
+
+[Skills:](Skills.md) :material-microsoft-word: :material-microsoft-powerpoint: :material-microsoft-excel:
 
 <div style="height:4px; background:var(--md-default-fg-color); margin:1.5rem 0;"></div>
 

@@ -117,11 +117,11 @@ function App() {
       </nav>
 
       {/* Hero */}
-      <header className="w-full border-b bg-gradient-to-br from-violet-600 via-purple-600 to-purple-700 text-white">
+      <header className="w-full border-b bg-gradient-to-br from-amber-50 to-amber-100 text-slate-900 dark:from-violet-600 dark:via-purple-600 dark:to-purple-700 dark:text-white">
         <div className="max-w-7xl mx-auto px-6 flex flex-col items-center justify-center py-24 text-center">
-          <h2 className="text-5xl sm:text-6xl mb-4 font-bold tracking-tight" style={{ fontFamily: 'Brush Script MT, cursive' }}>Hello, World!</h2>
-          <p className="text-xl mb-2 text-white/90">👋🏽 My name is Raphael. I'm a Data Engineer and tech enthusiast.</p>
-          <p className="text-lg mb-8 max-w-2xl text-white/80">Building reliable, scalable data systems that power business decisions.</p>
+          <h2 className="text-5xl sm:text-6xl mb-4 font-bold tracking-tight text-slate-900 dark:text-white" style={{ fontFamily: 'Brush Script MT, cursive' }}>Hello, World!</h2>
+          <p className="text-xl mb-2 text-slate-700 dark:text-white/90">👋🏽 My name is Raphael. I'm a Data Engineer and tech enthusiast.</p>
+          <p className="text-lg mb-8 max-w-2xl text-slate-600 dark:text-white/80">Building reliable, scalable data systems that power business decisions.</p>
           <div className="flex items-center gap-3">
             <a 
               href="#experience" 
@@ -129,23 +129,23 @@ function App() {
             >
               View Experience
             </a>
-            <a 
-              href="https://github.com/RaphCodec" 
-              aria-label="GitHub" 
-              target="_blank" 
-              rel="noreferrer" 
-              className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-white/10 backdrop-blur transition-colors hover:bg-white/20"
+            <a
+              href="https://github.com/RaphCodec"
+              aria-label="GitHub"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-slate-100 text-slate-900 dark:bg-white/10 dark:text-white transition-colors hover:bg-slate-200 dark:hover:bg-white/20"
             >
-              <Github className="h-5 w-5 text-white" />
+              <Github className="h-5 w-5" />
             </a>
-            <a 
-              href="https://www.linkedin.com/in/raphael-clifton/" 
-              aria-label="LinkedIn" 
-              target="_blank" 
-              rel="noreferrer" 
-              className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-white/10 backdrop-blur transition-colors hover:bg-white/20"
+            <a
+              href="https://www.linkedin.com/in/raphael-clifton/"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-slate-100 text-slate-900 dark:bg-white/10 dark:text-white transition-colors hover:bg-slate-200 dark:hover:bg-white/20"
             >
-              <Linkedin className="h-5 w-5 text-white" />
+              <Linkedin className="h-5 w-5" />
             </a>
           </div>
         </div>

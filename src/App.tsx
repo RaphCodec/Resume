@@ -42,6 +42,7 @@ function ExperienceCard({ role, company, period, bullets, skills }: ExperienceCa
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     // Check for saved theme preference or system preference
@@ -64,11 +65,14 @@ function App() {
       {/* Navbar */}
       <nav className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="max-w-7xl mx-auto px-6 flex h-16 items-center justify-between">
-          <div>
-            <h1 className="text-lg font-semibold tracking-tight">Raphael Clifton</h1>
-            <p className="text-sm text-muted-foreground">Data Engineer</p>
+          <div className="flex items-center gap-3 min-w-0">
+            <div className="min-w-0">
+              <h1 className="text-lg font-semibold tracking-tight truncate">Raphael Clifton</h1>
+              <p className="text-sm text-muted-foreground truncate">Data Engineer</p>
+            </div>
           </div>
-          <div className="flex items-center gap-6">
+
+          <div className="hidden sm:flex items-center gap-6">
             <a href="#experience" className="text-sm font-medium transition-colors hover:text-primary">Experience</a>
             <a href="#education" className="text-sm font-medium transition-colors hover:text-primary">Education</a>
             <a href="#skills" className="text-sm font-medium transition-colors hover:text-primary">Skills</a>
@@ -79,7 +83,37 @@ function App() {
               {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
             </button>
           </div>
+
+          <div className="sm:hidden flex items-center">
+            <button
+              onClick={() => setMobileOpen((v) => !v)}
+              aria-label="Toggle menu"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+            >
+              {/* simple hamburger icon */}
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
+          </div>
         </div>
+
+        {mobileOpen && (
+          <div className="sm:hidden border-t border-border bg-background/95">
+            <div className="px-4 py-3 space-y-2">
+              <a onClick={() => setMobileOpen(false)} href="#experience" className="block text-sm font-medium">Experience</a>
+              <a onClick={() => setMobileOpen(false)} href="#education" className="block text-sm font-medium">Education</a>
+              <a onClick={() => setMobileOpen(false)} href="#skills" className="block text-sm font-medium">Skills</a>
+              <button 
+                onClick={() => { toggleDarkMode(); setMobileOpen(false); }} 
+                className="mt-2 inline-flex h-9 items-center gap-2 rounded-md px-3 text-sm"
+              >
+                {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+                <span>{darkMode ? 'Light' : 'Dark'}</span>
+              </button>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Hero */}

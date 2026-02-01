@@ -1,3 +1,9 @@
+.states
+*.py[cod]
+assets/external/
+.web
+*.db
+__pycache__/
 # Compiled source #
 ###################
 *.com

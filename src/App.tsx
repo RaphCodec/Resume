@@ -178,7 +178,7 @@ function App() {
               'Create and manage databases for analytics and web development',
               'Create and maintain various data pipelines using Python and SQL',
               'Built interactive Org Chart application for workforce planning',
-              'Contributed to Power BI dashboards for 311, Congestion Pricing, and KPIs',
+              'Contributed to Power BI dashboards for 311, Congestion Pricing, and key KPIs',
             ]}
             skills={['Python', 'Airflow', 'Azure', 'Snowflake', 'FastAPI', 'Azure DevOps', 'Power BI']}
           />

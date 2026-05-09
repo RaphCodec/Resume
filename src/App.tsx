@@ -164,10 +164,11 @@ function App() {
               'Manage a team of data engineers and DevOps professionals',
               'Implement and migrate data pipelines to Apache Airflow hosted on Azure AKS',
               'Migrate analytics workloads to Snowflake from SQL Server',
+              'Lead the migration of internal applications from on-premise Django servers to Azure Kubernetes Service with React Frontends and FastAPI backends',
               'Develop DevOps CI/CD pipelines using GitHub Actions',
               'Leverage GitHub Projects for task management and sprint planning',
             ]}
-            skills={['Python', 'Airflow', 'Azure', 'Snowflake', 'FastAPI']}
+            skills={['Python', 'Airflow', 'Azure', 'Snowflake', 'FastAPI', 'React', 'GitHub Actions', 'Docker', 'Kubernetes', 'Power BI']}
           />
           <ExperienceCard
             role="Data Engineer"
@@ -179,7 +180,7 @@ function App() {
               'Built interactive Org Chart application for workforce planning',
               'Contributed to Power BI dashboards for 311, Congestion Pricing, and KPIs',
             ]}
-            skills={['Python', 'Airflow', 'Azure', 'Snowflake', 'FastAPI']}
+            skills={['Python', 'Airflow', 'Azure', 'Snowflake', 'FastAPI', 'Azure DevOps', 'Power BI']}
           />
           <ExperienceCard
             role="Data Engineering Intern | College Aide"
@@ -259,7 +260,8 @@ function App() {
               'Data Warehousing': ['Snowflake', 'SQL Server', 'DuckDB', 'Postgres'],
               'Backend': ['FastAPI', 'Django'],
               'Frontend': ['React', 'Reflex'],
-              'Version Control': ['GitHub', 'GitHub Actions', 'Azure DevOps'],
+              'DevOps & Cloud': ['Docker', 'Azure Kubernetes Service', 'GitHub Actions', 'Azure DevOps'],
+              'BI & Visualization': ['Power BI'],
             }).map(([category, skills]) => (
               <div key={category} className="rounded-lg border bg-card text-card-foreground shadow-sm p-6">
                 <h4 className="text-lg font-semibold mb-4">{category}</h4>

@@ -75,6 +75,7 @@ function App() {
           <div className="hidden sm:flex items-center gap-6">
             <a href="#experience" className="text-sm font-medium transition-colors hover:text-primary">Experience</a>
             <a href="#education" className="text-sm font-medium transition-colors hover:text-primary">Education</a>
+            <a href="#certifications" className="text-sm font-medium transition-colors hover:text-primary">Certifications</a>
             <a href="#skills" className="text-sm font-medium transition-colors hover:text-primary">Skills</a>
             <button 
               onClick={toggleDarkMode} 
@@ -103,6 +104,7 @@ function App() {
             <div className="px-4 py-3 space-y-2">
               <a onClick={() => setMobileOpen(false)} href="#experience" className="block text-sm font-medium">Experience</a>
               <a onClick={() => setMobileOpen(false)} href="#education" className="block text-sm font-medium">Education</a>
+              <a onClick={() => setMobileOpen(false)} href="#certifications" className="block text-sm font-medium">Certifications</a>
               <a onClick={() => setMobileOpen(false)} href="#skills" className="block text-sm font-medium">Skills</a>
               <button 
                 onClick={() => { toggleDarkMode(); setMobileOpen(false); }} 
@@ -119,7 +121,7 @@ function App() {
       {/* Hero */}
       <header className="w-full border-b bg-gradient-to-br from-amber-50 to-amber-100 text-slate-900 dark:from-violet-600 dark:via-purple-600 dark:to-purple-700 dark:text-white">
         <div className="max-w-7xl mx-auto px-6 flex flex-col items-center justify-center py-24 text-center">
-          <h2 className="text-5xl sm:text-6xl mb-4 font-bold tracking-tight text-slate-900 dark:text-white" style={{ fontFamily: 'Brush Script MT, cursive' }}>Hello, World!</h2>
+          <h2 className="text-5xl sm:text-6xl mb-4 font-bold tracking-tight text-slate-900 dark:text-white" style={{ fontFamily: 'Brush Script MT, cursive' }}>Hello!</h2>
           <p className="text-xl mb-2 text-slate-700 dark:text-white/90">👋🏽 My name is Raphael. I'm a Data Engineer and tech enthusiast.</p>
           <p className="text-lg mb-8 max-w-2xl text-slate-600 dark:text-white/80">Building reliable, scalable data systems that power business decisions.</p>
           <div className="flex items-center gap-3">
@@ -249,6 +251,26 @@ function App() {
         </div>
       </section>
 
+      {/* Certifications */}
+      <section id="certifications" className="w-full py-16 bg-background">
+        <div className="max-w-7xl mx-auto px-6">
+          <h3 className="text-3xl font-bold tracking-tight text-center mb-10">Certifications</h3>
+          <div className="grid gap-6 md:grid-cols-2">
+            <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-6">
+              <h4 className="text-lg font-semibold mb-2">Microsoft Certified</h4>
+              <a
+                href="https://learn.microsoft.com/en-us/users/raphaelclifton-4116/credentials/14042a9b6a8da295?ref=https://www.linkedin.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-primary underline underline-offset-4 hover:text-primary/80"
+              >
+                Microsoft Certified: Power Bi Data Analyst Associate
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Skills */}
       <section id="skills" className="w-full py-16 bg-background">
         <div className="max-w-7xl mx-auto px-6">
@@ -259,7 +281,7 @@ function App() {
               'Orchestration & ETL': ['Apache Airflow', 'Azure Data Factory'],
               'Data Warehousing': ['Snowflake', 'SQL Server', 'DuckDB', 'Postgres'],
               'Backend': ['FastAPI', 'Django'],
-              'Frontend': ['React', 'Reflex'],
+              'Frontend': ['React'],
               'DevOps & Cloud': ['Docker', 'Azure Kubernetes Service', 'GitHub Actions', 'Azure DevOps'],
               'BI & Visualization': ['Power BI'],
             }).map(([category, skills]) => (
